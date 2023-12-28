@@ -1,1 +1,7 @@
-{"trip_id":3,"trip_name":"123","start_date":"123","end_date":"123","itineraryDTOList":[]}
+{
+  "trip_id": 3,
+  "trip_name": "123",
+  "start_date": "123",
+  "end_date": "123",
+  "itineraryDTOList": []
+}
