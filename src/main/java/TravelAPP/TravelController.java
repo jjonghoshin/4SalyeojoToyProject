@@ -81,7 +81,8 @@ public class TravelController {
     public void saveItineraryRecord(TripDTO tripDTO) {
         ItineraryDTO itineraryDTO = consoleView.getItineraryRecord();
 //        List<ItineraryDTO> itineraryDTOList = new ArrayList<>();
-        List<ItineraryDTO> itineraryDTOList = tripDTO.getItineraryDTOList();
+        //List<ItineraryDTO> itineraryDTOList = tripDTO.getItineraryDTOList();
+        List<ItineraryDTO> itineraryDTOList = new ArrayList<ItineraryDTO>(tripDTO.getItineraryDTOList());
         itineraryDTOList.add(itineraryDTO);
 
         for (int i = 0; i < itineraryDTOList.size(); i++) {
