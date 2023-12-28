@@ -33,7 +33,7 @@ public class ConsoleView {
     }
 
     public String printSelectItineraryMenu() {
-        System.out.print("추가로 여정 정보를 저장하시겠습니까? (y/n) : ");
+        System.out.print("추가로 여정 정보를 저장하시겠습니까?? (y/n) : ");
         return scanner.nextLine();
     }
 
