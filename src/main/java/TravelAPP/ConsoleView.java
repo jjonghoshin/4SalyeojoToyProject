@@ -23,9 +23,9 @@ public class ConsoleView {
     public TripDTO getTripRecord(){
         System.out.print("여행 이름을 입력하세요 : ");
         String tripName = scanner.nextLine();
-        System.out.print("시작 날짜를 입력하세요 : ");
+        System.out.print("시작 날짜를 입력하세요(yyyy-MM-dd) : ");
         String startDate = scanner.nextLine();
-        System.out.print("종료 날짜를 입력하세요 : ");
+        System.out.print("종료 날짜를 입력하세요(yyyy-MM-dd) : ");
         String endDate = scanner.nextLine();
         // Book book = new Book("Java", 3000, 500);
         TripDTO tripDTO = new TripDTO(tripName,startDate, endDate, List.of());
@@ -33,7 +33,7 @@ public class ConsoleView {
     }
 
     public String printSelectItineraryMenu() {
-        System.out.print("여정을 추가 기록 하시겠습니까? (y/n) : ");
+        System.out.print("추가로 여정 정보를 저장하시겠습니까? (y/n) : ");
         return scanner.nextLine();
     }
 
@@ -42,13 +42,13 @@ public class ConsoleView {
         String departure_place = scanner.nextLine();
         System.out.print("도착지를 입력하세요 : ");
         String destination = scanner.nextLine();
-        System.out.print("출발시간를 입력하세요 : ");
+        System.out.print("출발시간를 입력하세요(00:00) : ");
         String departure_time = scanner.nextLine();
-        System.out.print("도착시간를 입력하세요 : ");
+        System.out.print("도착시간를 입력하세요(00:00) : ");
         String arrival_time = scanner.nextLine();
-        System.out.print("체크인를 입력하세요 : ");
+        System.out.print("체크인 날짜를 입력하세요(yyyy-MM-dd) : ");
         String check_in = scanner.nextLine();
-        System.out.print("체크아웃를 입력하세요 : ");
+        System.out.print("체크아웃 날짜를 입력하세요(yyyy-MM-dd) : ");
         String check_out = scanner.nextLine();
         ItineraryDTO itineraryDTO = new ItineraryDTO(
                 departure_place,
