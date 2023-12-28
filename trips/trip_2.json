@@ -1,0 +1,7 @@
+{
+  "trip_id":2,
+  "trip_name":"japan",
+  "start_date":"2024-1-10",
+  "end_date":"2024-1-11",
+  "itineraryDTOList":[
+    {"itinerary_id":0,"departure_place":"lkjlkj12","destination":"jkldjfk123232","departure_time":"2024-1-1 10:00","arrival_time":"2024-1-1 11:00","check_in":"2024-1-1 11:20","check_out":"2024-1-1 12:00"}]}

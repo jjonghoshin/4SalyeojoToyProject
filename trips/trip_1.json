@@ -1,0 +1,18 @@
+{"trip_id":1,"trip_name":"jejudo","start_date":"2024-1-1","end_date":"2024-1-3","itineraryDTOList":[
+  {"itinerary_id":1,
+    "departure_place":"asdf123213",
+    "destination":"qwqweqwe12",
+    "departure_time":"2024-1-1 9",
+    "arrival_time":"2024-1-1 10",
+    "check_in":"2024-1-1 11",
+    "check_out":"2024-1-1 12"},
+  {
+    "itinerary_id":2,
+    "departure_place":"poioiu123",
+    "destination":"lkj12",
+    "departure_time":"2024-1-1- 10",
+    "arrival_time":"2024-1-1 11",
+    "check_in":"2024-1-1 12",
+    "check_out":"2024-1-1 13"}
+]
+}
