@@ -21,11 +21,11 @@ public class ConsoleView {
 
     //여행정보를 입력받을 메서드 생성하기
     public TripDTO getTripRecord(){
-        System.out.println("여행 이름을 입력하세요 : ");
+        System.out.print("여행 이름을 입력하세요 : ");
         String tripName = scanner.nextLine();
-        System.out.println("시작 날짜를 입력하세요 : ");
+        System.out.print("시작 날짜를 입력하세요 : ");
         String startDate = scanner.nextLine();
-        System.out.println("종료 날짜를 입력하세요 : ");
+        System.out.print("종료 날짜를 입력하세요 : ");
         String endDate = scanner.nextLine();
         // Book book = new Book("Java", 3000, 500);
         TripDTO tripDTO = new TripDTO(tripName,startDate, endDate, List.of());
@@ -33,7 +33,7 @@ public class ConsoleView {
     }
 
     public String printSelectItineraryMenu() {
-        System.out.println("select itinerary menu (y/n) : ");
+        System.out.print("여정을 추가 기록 하시겠습니까? (y/n) : ");
         return scanner.nextLine();
     }
 
@@ -66,7 +66,7 @@ public class ConsoleView {
         for (TripDTO tripDTO : tripDTOList) {
             System.out.println("id: " + tripDTO.getTrip_id() + ", name: " + tripDTO.getTrip_name());
         }
-        System.out.print("choose id : ");
+        System.out.print("id를 입력하세요 : ");
 
         return scanner.nextLine();
     }
